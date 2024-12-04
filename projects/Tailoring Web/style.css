@@ -1,0 +1,288 @@
+body {
+  margin: 0%;
+  font-family: 'fangsong';
+}
+
+/*navbar for all the pages  */
+#navbar {
+  background-image: linear-gradient(to left, rgb(120, 180, 203), rgb(7, 63, 85));
+  background-size: auto;
+  padding: 2px;
+  margin: 0%;
+  text-align: center; 
+  text-decoration: none;
+  height: 60px;
+  align-items: center;
+  width: auto;
+  font-family: 'fangsong';
+  align-content: center;
+}
+
+#navbar a {
+  display: inline-block;
+  padding-right: 10px;
+  text-decoration: none;
+  font-size: 16px;
+  color: white;
+}
+
+#navbar a:hover {
+  text-decoration: underline;
+}
+
+/* index page */
+.container {
+  display: block;
+  margin-top: 0%;
+  padding-right: 0%;
+  /* padding-top: 70px; */
+  font-style: italic;
+  font-family: 'Fangsong';
+  font-size: 12px;
+  color: black;
+  text-align: center;
+  width: auto;
+}
+
+.container h1 {
+  margin-top: 0% !important;
+}
+
+.container p {
+  color: rgb(212, 28, 157);
+  margin-top: 0% !important;
+}
+
+/* to align images in index page */
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 3px;
+}
+
+/* to style about page */
+.container1 {
+  background-image: url(images/aboutbackimg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 600px;
+  width: 100%;
+  text-decoration: none;
+}
+
+/* this is to align texts in about page */
+.box1 {
+  color: black;
+  margin-left: 40%;
+  margin-top: 0%;
+  list-style: none; /* to remove dots from li*/ 
+  align-content: center;
+  line-height: 2.5;
+  width: auto;
+}
+
+/* to style courses page */
+.container2 {
+  background-image: url(images/page3back.avif);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 400px;
+  width: 100%;
+  text-decoration: none;
+  margin-top: 0px;
+}
+
+.container2 h1 {
+  font-family: 'math';
+  font-size: 40px;
+  margin-left: 50px;
+  margin-top: 0%;
+  text-align: left;
+  padding-top: 100px;
+  color: rgb(221, 9, 27);
+}
+
+/* this is to align texts in courses page*/
+.box2 {
+  text-align: center;
+  margin-top: 0%;
+  list-style: none;
+  align-content: center;
+  width: auto;
+  font-size: 16px;
+  color: rgb(10, 87, 87);
+  font-family: 'math';
+}
+
+/* this is to style services page */
+.container3 {
+  background-image: url(images/page4back.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 650px;
+  width: 100%;
+  text-decoration: none;
+  margin-top: 0px !important;
+}
+
+.container3 h1 {
+  font-family: 'fangsong';
+  margin-left: 60px;
+  color: aqua;
+}
+
+/* this is to align texts in service page */
+.box3 {
+  color: rgb(174, 12, 90);
+  background-color: whitesmoke;
+  margin-right: 75%;
+  border-radius: 10%;
+  margin-left: 30px;
+  list-style: none !important;
+  align-content: center;
+  text-align: center;
+  line-height: 2.5;
+  width: auto;
+  font-size: 20px;
+}
+
+.box3 li{
+  list-style: none;
+}
+
+ /* this is to style link in the services page */
+.link a {
+  color: white;
+  margin-left: 30px;
+  font-size: 25px;
+  font-family: 'fangson';
+}
+
+
+/* this is to style form page */
+/*class selector is used here */
+.registration {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px;
+  border-style: solid;
+}
+
+/*id selector is used here*/
+#description {
+  border: 1px;
+  border-color: brown;
+  border-style: solid;
+}
+
+/* nested selector is used here */
+.heading {
+  background-color: brown;
+  border-style: double;
+  border-color: blue;
+  font-family: Arial, Helvetica, sans-serif;
+
+  &>h2 {
+    font-family: "Times New Roman", Times, serif;
+    text-align: center;
+    color: white;
+  }
+}
+
+.button:hover {
+  background-color: blue;
+}
+
+/*Nested Selector*/
+.box {
+  border: 2px solid green;
+  background-color: beige;
+  font-family: 'fangsong';
+  font-size: 20px;
+
+  &>a {
+    color: green;
+
+    &:hover {
+      color: white;
+      background-color: salmon;
+    }
+  }
+}
+
+#home {
+  font-size: larger;
+  font-family: Arial, Helvetica, sans-serif;
+  color: orangered;
+}
+
+.btn-submit {
+  background-color: #04AA6D;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.can-button {
+  background-color: gray;
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+input[type=text],
+select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=number],
+select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=email],
+select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+/* form page */
+.footer {
+  text-align: center;
+}

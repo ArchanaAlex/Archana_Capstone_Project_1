@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="../style.css">
+</head>
+
+<body>
+  <div id="description">
+  <p>
+    Registration Form in HTML - Scaler TopicsA registration form is a digital form that users fill out to access a
+    website's services or content. Registration forms are used by organizations to gather information from users and
+    establish trust.
+  </p>
+</div>
+  <form action="/submit" method="Post">
+    <div class="heading">
+    <h2>Registration Form</h2>
+  </div>
+    <hr>
+    <div class="registration">
+      <table>
+        <tr>
+          <td>
+            <label for="fname">First name:</label>
+          </td>
+          <td>
+            <input type="text" id="name" name="name" value="" required />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="gender">Gender:</label>
+          </td>
+          <td>
+            <label for="Male">Male</label>
+            <input type="radio" name="gender" value="male" required />
+            <label for="female">Female</label>
+            <input type="radio" name="gender" value="female" required />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="Age">Age:</label>
+          </td>
+          <td>
+            <input type="number" id="number" name="number" value="" required />
+          </td>
+        </tr>
+        </td>
+        <tr>
+          <td>
+            <label for="coursetype">Course Type:</label>
+          </td>
+          <td>
+            <select name="Online" id="Online">
+              <option value="Online">Online</option>
+              <option value="Offline">Offline</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="Address">Address:</label>
+          </td>
+          <td>
+            <textarea name="Address" id="Address"></textarea>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="email">Email:</label>
+          </td>
+          <td>
+            <input type="email" id="email" name="email" value="" required />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="Contact">Contact:</label>
+          </td>
+          <td>
+            <input type="number" id="number" name="number" value="" required />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <div>
+              <button class="btn-submit">Submit</button>
+            </div>
+          </td>
+          <td>
+            <button class="can-button">Cancel</button>
+          </td>
+        </tr>
+      </table>
+    </div>
+    <div class="box">
+<p>To go to home page <a href="../index.htm">Click here</a></p>
+    </div>
+  </form>
+  <div class="footer">
+    <p>Copy right &copy; fashion world 2024</p>
+  </div>
+</body>
+
+</html>

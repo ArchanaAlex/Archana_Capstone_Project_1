@@ -1,0 +1,86 @@
+body{
+    background-image: url(images/backimg.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-decoration: none;
+}
+#logo {
+    font-style: italic;
+    color: orangered;
+    margin: 20px;
+
+}
+.fashion{
+    text-decoration: none !important;
+    text-decoration: initial;
+}
+
+/*#navbar {
+    font-style: inherit;
+    color: rgb(248, 240, 240);
+    display: block;
+    margin: 50px;
+    padding: 10px;
+    border: 1px solid;
+    background-color: rgb(2, 2, 2);
+    float: center;
+    text-align: left;
+}*/
+
+#navbar {
+    display: flex;
+    position: sticky;
+    align-items: center;
+    justify-content: space-between;
+    top: 0px;
+    background: rgb(12, 12, 12);
+    background-blend-mode: darken;
+    background-size: cover;
+    color: white;
+    padding: 10px 20px;
+}
+#navbar:hover {
+    background-color: crimson;
+}
+
+.btn {
+    background-color: yellow;
+}
+
+.navright {
+    float: right;
+    margin-right: 20px;
+}
+.gallery{
+    display: inline-block;
+    border: 1px solid rgb(82, 80, 80);
+    margin: 30px;
+    width: 300px;
+}
+.gallery .description{
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    color: rgb(63, 252, 5);
+    border: 2px;
+    background-color: darkcyan;
+} 
+.gallery:hover{
+    border-width: 3px;
+}
+.gallery img{
+    width: 100%;
+    height: auto;
+}
+
+footer {
+    text-align: center;
+    padding: 3px;
+    background-color: black;
+    color: white;
+    text-decoration: none !important;  
+    
+  }
+  .foot{
+    text-decoration: none !important;
+  }
